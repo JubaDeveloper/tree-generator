@@ -37,7 +37,7 @@ public class Tree implements main.java.io.github.jubadeveloper.contracts.Tree {
             int s = iterator;
             tree.append(" ".repeat(spaces));
             for (int x = 0; x < s; x++) {
-                tree.append(iterator == 1 ? treeTop : treeLeave).append(" ");
+                tree.append(iterator == 1 ? treeTop : iterator % 2 == 0 ? treeLeave : treeTop).append(" ");
             }
             tree.append("\n");
             spaces--;
