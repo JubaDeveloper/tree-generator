@@ -7,5 +7,5 @@ That will constrcuts a tree based in the give size passed on right side during e
 - Replace the [:size] with the desired tree size
 
 ```bash
-  javar -jar target/tree-generator-1.0.jar [:size]
+  java -jar target/tree-generator-1.0.jar [:size]
 ```
